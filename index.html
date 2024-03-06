@@ -1,0 +1,62 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="cabecera">
+            <img class="LogoImg" src="imagenes/logo.png" alt="Logo">
+        </header>
+        <main class="principal" >
+            <section class="seccion1">
+                <textarea id="areaPrincipal" class="area" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="contenedor-botones">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></svg>
+                        <p>Solo letras minusculas y sin acentos.</p>
+                <input type="button" class="btn-encriptar" value="Encriptar!">
+                <input type="button" class="btn-desEncriptar" value="Desencriptar!">
+                </div>
+            </section>
+
+            <section class="seccion2">
+                <div class="contenedor-muneco ">
+                    <img class="muneco"src="imagenes/Muñeco.png" alt="Muñeco de alura">
+                </div>
+                <div class="contenedor-parrafo">    
+                    <h3 class="contenedor-h3">Ningún mensaje fue encontrado </h3>
+                </div>
+                 <div class="contenedor-resultado">
+                    <textarea id ="resultado-final" placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>    
+                </div>
+                <div class="contenedor-copiar ">
+                    <input type="button" id="btn-copiar" value="Copiar">
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+        <footer class="pie-pagina">
+            Erick Lopez 16-02-2024.
+        </footer>
+    </body>
+</html>
